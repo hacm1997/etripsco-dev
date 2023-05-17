@@ -1,0 +1,62 @@
+.principal{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.principalBg{
+    background-image: linear-gradient(white -5%, rgba(255, 255, 255, 0) 50%), url("/images/boats/boats_background.png");
+    background-size: 100% 100%;
+    padding-block-end: 380px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0c505c;
+    animation-duration: 3s;
+    animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+    from {
+        margin-left: 375px;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+.comming{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0c505c;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -375px;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0px;
+        width: 100%;
+    }
+}

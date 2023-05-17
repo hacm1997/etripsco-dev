@@ -1,0 +1,99 @@
+.img{
+    width: 900px;
+    float:left;
+    margin-top: -70px;
+    animation: taadaa 3s;
+}
+
+@keyframes taadaa { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+
+.main_title h1 {
+    animation-name: rightToLeft;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.main_title button {
+    animation-name: downToTop;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes rightToLeft {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes downToTop {
+    0% {
+        opacity: 0;
+    }
+
+    75%{
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.main_title div{
+    margin-left: 50px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.main_title h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFF;
+}
+
+.btn_contact {
+    margin-top: 10px;
+    background-color: #FFFF;
+    border: 0;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+    color: #ce3f23;
+}
+
+.btn_contact:hover{
+    background-color: #ce3f23;
+    color: #FFFF;
+}
+
+.btn_contact a{
+    font-weight: bold;
+    font-size: 14px;
+    color: #0d505c;
+}

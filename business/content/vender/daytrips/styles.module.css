@@ -1,0 +1,32 @@
+.cont {
+    background-image: url("/images/vender/background2.png");
+    margin-top: -280px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-block-end: 50px;
+}
+
+.content2 {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    padding-block-end: 50px;
+}
+
+.content h3 {
+    margin-top: 260px;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.sliders_1 {
+    display: flex;
+    justify-content: center;
+}

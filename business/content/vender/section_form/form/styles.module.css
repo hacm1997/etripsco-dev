@@ -1,0 +1,70 @@
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.form input {
+    width: 270px;
+    border-radius: 30px;
+    height: 50px;
+    border: 1.5px solid #CF3E23;
+}
+
+.form input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 270px;
+    height: 50px;
+    background: linear-gradient(to right, #DF863F 0%, #CF3E23  81%, #CF3E23  100%);
+    color: #FFFF;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.form input::placeholder{
+    color: #0D505B;
+    font-size: 14px;
+}
+
+.modal_view{
+    margin-top: 15%;
+}
+.modal_body{
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #DF863F;
+}
+.title_modal{
+    display: flex;
+    justify-content: center;
+}
+.title_modal p{
+    color: #0D505B;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+.description_modal{
+    display: flex;
+    justify-content: center;
+}
+.description_modal p{
+    color: #0D505B;
+    font-weight: bold;
+    font-size: 18px;
+}

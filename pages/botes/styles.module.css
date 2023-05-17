@@ -1,0 +1,7 @@
+.principal{
+    background-image:  linear-gradient(white -5%, rgba(255, 255, 255, 0) 20%), url("/images/boats/boats_background.png");
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    padding-block-end: 175px;
+}

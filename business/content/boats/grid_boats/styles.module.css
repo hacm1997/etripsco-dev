@@ -1,0 +1,14 @@
+.cont {
+    padding-block-end: 50px;
+}
+
+.logue {
+    margin-top: -100px;
+    width: 150px;
+    height: 150px;
+}
+
+.filterMob {
+    display: flex;
+    justify-content: center;
+}

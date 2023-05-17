@@ -1,0 +1,18 @@
+.content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.content h1{
+    color: #18A7D3;
+    font-weight: bold;
+}
+
+.sliders {
+     
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    margin-top: 50px;
+}

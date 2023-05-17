@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.buttonR {
+    width: 120px;
+    height: 35px;
+    background: linear-gradient(to right, #DF863F 0%, #CF3E23  51%, #CF3E23  100%);
+    border: 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    border-radius: 25px;
+}

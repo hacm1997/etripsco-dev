@@ -1,0 +1,71 @@
+.general {
+    width: 290px;
+    background-color: #F9F9F9;
+    position: sticky;
+    margin-top: 80px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.content_1 h2 {
+    color: #0c505c;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content_1 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0c505c;
+}
+
+.content_range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_range p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.valor_filtro{
+    display: flex;
+
+}
+.valor_filtro div{
+    width: 100%;
+
+}
+
+.valor_filtro p {
+    border: solid 1px #DF863F;
+    height: 35px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vaule1 p{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.vaule2 p{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.slider {
+    margin-top: 80px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-top: 450px;
+    margin-left: 20px;
+}

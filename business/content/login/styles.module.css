@@ -1,0 +1,76 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    width: 500px;
+}
+
+.logo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.auth_login{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+/*TABLE PAGINATION*/
+.paginationsActive {
+    background-color: #DF863F;
+    color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.paginationsActive a {
+    font-size: 14px;
+}
+
+.paginationsBtns {
+    list-style: none;
+    display: flex;
+    border: 50px;
+    justify-content: space-between;
+}
+
+.paginationsBtns a {
+    padding: 6px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.paginationsBtns {
+    padding: 5px;
+    margin: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+.prevBtns, .nextBtns{
+    display: none;
+}
+
+.paginationControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.info_table{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.data_info h5{
+    margin-top: 10px;
+}

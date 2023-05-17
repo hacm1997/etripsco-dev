@@ -1,0 +1,153 @@
+/* CSS-PAGINATION */
+
+.paginationsActive {
+    background-color: #DF863F;
+    color: white;
+    border-radius: 10px;
+    /*width: 20px;*/
+    margin-right: 15px;
+
+}
+
+.btn_buscar {
+    width: 160px;
+    background: linear-gradient(to right, #DF863F 0%, #CF3E23  51%, #CF3E23  100%);
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    /*border-bottom-right-radius: 30px;*/
+    height: 50px;
+    color: #FFFF;
+    margin-left: 240px;
+    margin-top: -75px;
+    position: relative; z-index: 5;
+}
+
+
+.paginationsActive a {
+    font-size: 14px;
+}
+
+.paginationsBtns {
+    list-style: none;
+    display: flex;
+    border: 50px;
+    justify-content: space-between;
+}
+
+.paginationsBtns a {
+    padding: 6px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.paginationsBtns {
+    padding: 5px;
+    margin: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+.prevBtns, .nextBtns{
+    display: none;
+}
+
+.paginationControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+/* CSS-CARDS */
+
+.cards {
+    width: 14rem;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-block-end: 10px;
+    height: 430px;
+}
+
+.cardBody {
+    margin-top: -10px;
+}
+
+.columns {
+    margin-top: 0px;
+    width: 750px;
+}
+
+.image_card {
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titles {
+    margin-top: -20px;
+    padding-top: 10px;
+    color: #DF863F;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descriptions {
+    color: #0c505c;
+    line-height: 16px;
+}
+.descriptions2{
+    color: #0c505c;
+    line-height: 8px;
+    margin-top: -5px;
+}
+
+.contentDetails{
+    height: 100px;
+}
+
+.caracteristica{
+    margin-top: -5px;
+    line-height: 10px;
+    color: #0c505c;
+}
+.prices {
+    color: #0c505c;
+    font-weight: bold;
+    margin-top: -10px;
+    padding-block-end: 5px;
+}
+
+.btn_reserv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #DF863F 0%, #CF3E23  51%, #CF3E23  100%);
+    color: #FFFF;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+}
+
+/*RESPONSIVE*/
+.cardsMob {
+    margin-top: 50px;
+    width: 270px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1220px) {
+    .btn_buscar{
+        position: absolute;
+        width: 160px;
+        background: linear-gradient(to right, #DF863F 0%, #CF3E23  51%, #CF3E23  100%);
+        font-weight: bold;
+        border: none;
+        border-radius: 40px;
+        height: 40px;
+        color: #FFFF;
+        margin-top: -290px;
+        margin-left: 26%;
+    }
+}

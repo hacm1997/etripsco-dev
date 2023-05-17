@@ -1,0 +1,51 @@
+
+.content .footer{
+    background-image: url("/images/background/footer-background.png");
+    /*background-image: linear-gradient(to left, #CF3E23 0%, #CF3E23  51%, #DF863F  100%);*/
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    padding-top: 270px;
+    margin-top: -320px;
+    position: relative;
+    z-index: 100;
+    /*background-color: #F4E9D3;*/
+}
+
+.footer_responsive {
+    background-color: #e67a1b;
+    /*background-image: linear-gradient(to left, #CF3E23 0%, #CF3E23  51%, #DF863F  100%);*/
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:15px;
+    right:30px;
+    background-color:#e67a1b;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:200;
+}
+.float:hover {
+    text-decoration: none;
+    color: #e67a1b;
+    background-color:#fff;
+}
+
+.float i{
+    padding-top: 15px;
+}
+
+.my-float{
+    margin-top:16px;
+}

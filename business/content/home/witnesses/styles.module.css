@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container h3{
+    color: #FFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 p{
+    width: 580px;
+    color: #1a5a68;
+    text-align: center;
+}
+
+.w_sliders {
+    margin-top: 70px;
+}

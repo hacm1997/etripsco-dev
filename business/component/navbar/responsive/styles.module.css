@@ -1,0 +1,9 @@
+.mbMenu {
+    font-size: 18px;
+    color: #0e738e !important;
+    font-weight: bold;
+}
+
+.mbMenu:focus {
+    color: #e67a1b !important;
+}

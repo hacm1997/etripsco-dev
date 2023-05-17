@@ -1,0 +1,32 @@
+.content {
+    padding-block-end: 40px;
+}
+
+.cont{
+    padding-top: 170px;
+}
+
+.title_moments {
+    font-weight: bold;
+    color: #FFFF;
+    font-size: 40px;
+}
+
+.text p{
+    color: #FFFF;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+    .moments {
+        display: flex;
+        margin-left: 20px;
+    }
+    .title_moments{
+        font-weight: bold;
+        color: #FFFF;
+        font-size: 40px;
+        padding-top: 170px;
+    }
+}
